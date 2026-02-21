@@ -1,4 +1,4 @@
-import { Activity, Baby, Heart, Microscope, Scan, Pill, Scissors, Ambulance, Smile } from 'lucide-react'
+import { Activity, Baby, Heart, Microscope, Scan, Pill, Scissors, AlertCircle, Smile } from 'lucide-react'
 
 const services = [
   {
@@ -42,7 +42,7 @@ const services = [
     description: 'On-site pharmacy stocked with a wide range of medications and medical supplies. Our pharmacists provide medication counseling and ensure proper drug dispensing for all prescriptions.'
   },
   {
-    icon: Ambulance,
+    icon: AlertCircle,
     title: 'Emergency Services',
     description: '24/7 emergency care for urgent medical situations. Our emergency department is equipped to handle trauma, cardiac emergencies, and acute illnesses with rapid response and expert care.'
   }
