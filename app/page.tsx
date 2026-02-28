@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Heart, Stethoscope, Users, Clock, Shield, Award } from 'lucide-react'
+import ImageGallery from '@/components/ImageGallery'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
               <Link href="/services" className="btn-primary bg-white text-primary-600 hover:bg-primary-50 text-center">
                 Our Services
               </Link>
-              <Link href="/contact" className="btn-secondary border-white text-white hover:bg-white/10 text-center">
+              <Link href="/contact" className="btn-secondary bg-transparent border-white text-white hover:bg-white hover:text-primary-600 text-center">
                 Contact Us
               </Link>
             </div>
@@ -157,6 +158,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Clinic Gallery */}
+      <ImageGallery />
 
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-primary-600 text-white">
