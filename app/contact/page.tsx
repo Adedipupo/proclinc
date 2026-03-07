@@ -78,8 +78,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      123 Healthcare Avenue,<br />
-                      Medical District,<br />
+                    13 Allen Avenue,<br />
+                    Opebi,<br />
                       Lagos, Nigeria
                     </p>
                   </div>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      +234 123 456 7890<br />
+                      +234 123 456 7890 <br />
                       +234 098 765 4321
                     </p>
                   </div>

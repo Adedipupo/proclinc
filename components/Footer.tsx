@@ -31,7 +31,7 @@ export default function Footer() {
             <p className="text-sm mb-4">
               Providing quality healthcare services with compassion and excellence. Your trusted partner in health and wellness.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a
                 href="https://facebook.com"
                 target="_blank"
@@ -64,7 +64,7 @@ export default function Footer() {
               >
                 <Linkedin size={18} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -127,7 +127,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="flex-shrink-0 mt-1 text-primary-400" />
-                <span>123 Healthcare Avenue, Medical District, Lagos, Nigeria</span>
+                <span>13 Allen Avenue, Opebi, Lagos, Nigeria</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={18} className="flex-shrink-0 mt-1 text-primary-400" />
@@ -151,7 +151,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <p>
-              &copy; {currentYear} Providence Clinic. All rights reserved.
+              &copy; 2025 Providence Clinic. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link href="/contact" className="hover:text-primary-400 transition-colors duration-200">
