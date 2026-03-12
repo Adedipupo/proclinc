@@ -255,8 +255,8 @@ export default function ContactPage() {
           </h2>
           <div className="bg-gray-300 rounded-xl overflow-hidden h-96 flex items-center justify-center">
             <p className="text-gray-600 text-center">
-              Map integration placeholder<br />
-              <span className="text-sm">(Add Google Maps embed here)</span>
+              {/* Map integration placeholder<br /> */}
+              {/* <span className="text-sm">(Add Google Maps embed here)</span> */}
             </p>
           </div>
         </div>
