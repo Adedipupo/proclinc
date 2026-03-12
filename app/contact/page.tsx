@@ -93,8 +93,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      +234 123 456 7890 <br />
-                      +234 098 765 4321
+                    +234 803 564 1308
                     </p>
                   </div>
                 </div>
@@ -108,7 +107,8 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-600">
                       info@providenceclinic.com.ng<br />
-                      hr@providenceclinic.com.ng
+                      hr@providenceclinic.com.ng <br />
+                      admin@providenceclinic.com.ng
                     </p>
                   </div>
                 </div>

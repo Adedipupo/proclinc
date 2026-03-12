@@ -132,8 +132,7 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <Phone size={18} className="flex-shrink-0 mt-1 text-primary-400" />
                 <div>
-                  <div>+234 123 456 7890</div>
-                  <div>+234 098 765 4321</div>
+                  <div>+234 803 564 1308</div>
                 </div>
               </li>
               <li className="flex items-start gap-2">
@@ -141,6 +140,7 @@ export default function Footer() {
                 <div>
                   <div>info@providenceclinic.com.ng</div>
                   <div>hr@providenceclinic.com.ng</div>
+                  <div>admin@providenceclinic.com.ng</div>
                 </div>
               </li>
             </ul>
